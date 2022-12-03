@@ -1,4 +1,4 @@
-# email_password_flutter_firebase
+# Drent the hardware renting app
 Email and Password Authentication In Flutter &amp; Firebase in Flutter 2.2
 
 # Overview
