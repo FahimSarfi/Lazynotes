@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551112904178",
+    "project_id": "myapp-faditaw",
+    "storage_bucket": "myapp-faditaw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551112904178:android:65506e8046455c1cb42f6b",
+        "android_client_info": {
+          "package_name": "com.example.email_password_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551112904178-dv9oerlu8tluh4hi9mqdrgr410sfvso1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRnKRppXyxuvVA0chBzmHQe3AfzSRdrg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551112904178-dv9oerlu8tluh4hi9mqdrgr410sfvso1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
