@@ -39,6 +39,15 @@ dev_dependencies:
   flutter_native_splash: ^2.0.5
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Drent_logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "assets/Adaptive_Drent.png"
+  adaptive_icon_foreground: "assets/Adaptive_Drent.png" 
 
 flutter_native_splash:
   color: "#000000"
@@ -60,6 +69,9 @@ flutter:
     - assets/add-user.png
     - assets/Drent.mp4
     - assets/image/
+    - assets/Drent_logo.png
+    - assets/logo_DRENT.png
+
   fonts:
     - family: Roboto
       fonts:

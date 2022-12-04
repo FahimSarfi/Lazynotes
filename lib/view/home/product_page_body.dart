@@ -250,7 +250,7 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                               },
                               child: Text(
                                 "view details",
-                                style: TextStyle(
+                                style: TextStyle(fontSize: 20,
                                     backgroundColor: AppColors.mainColor),
                               ),
                             ),

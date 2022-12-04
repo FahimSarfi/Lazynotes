@@ -13,8 +13,8 @@ MERGED from [:video_player_android] D:\Download\Drent_final_project(cse 471)\ema
 MERGED from [:flutter_native_splash] D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\build\flutter_native_splash\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\836bb94dbb7fd055fe13ff4599821ebd\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\48b8daef3c307a48de96f6d9d0869097\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\51a07ed646627c1e93d9e9fa17908c93\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\870ac6e6d34c023387a9b3c499f816cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\5697fb2851e8bdca666cab936d2fef59\jetified-exoplayer-hls-2.17.1\AndroidManifest.xml:17:1-24:12
@@ -60,8 +60,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Fahim Sa
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\2a5c1b9ce2a46f4ff551f8933d685444\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\92b63788b6be6bc1e0d920369195dd35\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\11c1a93999abc39ed879cb24a5bad402\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\f7826c3413644fd5100868d0ed1a387e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\e4534028b9320495703dfbce21363250\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\f7826c3413644fd5100868d0ed1a387e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\567375bfdc1c0be298d731bc850ae60b\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 INJECTED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -90,10 +90,10 @@ MERGED from [:firebase_core] D:\Download\Drent_final_project(cse 471)\email_pass
 MERGED from [:firebase_core] D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\48b8daef3c307a48de96f6d9d0869097\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\48b8daef3c307a48de96f6d9d0869097\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\51a07ed646627c1e93d9e9fa17908c93\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\51a07ed646627c1e93d9e9fa17908c93\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\870ac6e6d34c023387a9b3c499f816cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
@@ -113,9 +113,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Fa
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\9b6e47c8688fd7d84759e524a4c0f1cd\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\main\AndroidManifest.xml:4:9-45
+		ADDED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\main\AndroidManifest.xml:4:9-30
 	android:icon
-		ADDED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\main\AndroidManifest.xml:5:9-43
+		ADDED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\main\AndroidManifest.xml:5:9-45
 activity#com.example.email_password_login.MainActivity
 ADDED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\main\AndroidManifest.xml:6:9-34:20
 	android:launchMode
@@ -178,10 +178,10 @@ MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Fahim Sarfi\.gra
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\836bb94dbb7fd055fe13ff4599821ebd\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\48b8daef3c307a48de96f6d9d0869097\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\48b8daef3c307a48de96f6d9d0869097\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\51a07ed646627c1e93d9e9fa17908c93\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\51a07ed646627c1e93d9e9fa17908c93\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\870ac6e6d34c023387a9b3c499f816cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
@@ -272,10 +272,10 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Fahim Sarfi\.gra
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\92b63788b6be6bc1e0d920369195dd35\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\11c1a93999abc39ed879cb24a5bad402\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\11c1a93999abc39ed879cb24a5bad402\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\f7826c3413644fd5100868d0ed1a387e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\f7826c3413644fd5100868d0ed1a387e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\e4534028b9320495703dfbce21363250\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\e4534028b9320495703dfbce21363250\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\f7826c3413644fd5100868d0ed1a387e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\f7826c3413644fd5100868d0ed1a387e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\567375bfdc1c0be298d731bc850ae60b\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\567375bfdc1c0be298d731bc850ae60b\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\debug\AndroidManifest.xml
@@ -288,10 +288,10 @@ INJECTED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_fi
 		INJECTED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\android\app\src\debug\AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
@@ -300,14 +300,14 @@ MERGED from [:cloud_firestore] D:\Download\Drent_final_project(cse 471)\email_pa
 MERGED from [:cloud_firestore] D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] D:\Download\Drent_final_project(cse 471)\email_password_flutter_firebase-main\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\870ac6e6d34c023387a9b3c499f816cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\870ac6e6d34c023387a9b3c499f816cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:19:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\870ac6e6d34c023387a9b3c499f816cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
 	android:directBootAware
@@ -345,9 +345,9 @@ ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\ca
 	android:name
 		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\48b8daef3c307a48de96f6d9d0869097\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
+ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\972c899f8184a1612bbca3911dae0b15\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\972c899f8184a1612bbca3911dae0b15\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\36382d3f754966a3285f153413b8cd13\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:24:5-79
@@ -355,7 +355,13 @@ MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\Fahi
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\e4534028b9320495703dfbce21363250\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\e4534028b9320495703dfbce21363250\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
@@ -424,12 +430,6 @@ ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.grad
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\eb2edfdc5c2d0a394828eadee5d880b7\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\cc43fa9774da70d0f9442f142992da60\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Fahim Sarfi\.gradle\caches\transforms-2\files-2.1\870ac6e6d34c023387a9b3c499f816cf\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 	android:authorities
