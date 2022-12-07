@@ -69,7 +69,7 @@ class _ProductPageBodyState extends State<ProductPageBody> {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              BigText(text: "Popular"),
+              BigText(text: "Popular", size: 27),
             ],
           )),
       Container(
@@ -125,7 +125,7 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                                   children: [
                                     IconAndTextWidget(
                                         icon: Icons.location_on,
-                                        text: "Sylhet",
+                                        text: "Dhaka",
                                         iconcolor: AppColors.iconColor1),
                                     SizedBox(width: 1),
                                     TextButton(
@@ -229,16 +229,24 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                           color: Colors.black,
                         ),
                         SizedBox(
-                          height: 10,
+                          height: 15,
                         ),
                         Row(
                           children: [
                             IconAndTextWidget(
                                 icon: Icons.location_on,
-                                text: "Sylhet",
+                                text: "Dhaka",
                                 iconcolor: AppColors.iconColor1),
-                            SizedBox(width: 5),
-                            TextButton(
+                            SizedBox(
+                              width: 140,
+                              height: 30,
+                              child: FloatingActionButton.extended(
+                              label: Text(
+                                "view details",
+                                style: TextStyle(fontSize: 15),
+                              ),
+                              backgroundColor: Colors.green,
+                              icon: Icon(Icons.view_list_rounded, size: 20,),
                               onPressed: () {
                                 Navigator.push(
                                     context,
@@ -248,13 +256,9 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                                               imageString: imageString,
                                             )));
                               },
-                              child: Text(
-                                "view details",
-                                style: TextStyle(fontSize: 20,
-                                    backgroundColor: AppColors.mainColor),
-                              ),
+                              
                             ),
-                          ],
+                        )],
                         )
                       ],
                     ),

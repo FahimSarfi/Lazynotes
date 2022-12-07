@@ -45,8 +45,8 @@ class _MainProductPageState extends State<MainProductPage> {
                   Center(
                     child: Container(
                       width: 45,
-                      height: 45,
-                      child: Icon(Icons.search, color:Colors.yellow),
+                      height: 40,
+                      child: Icon(Icons.search, color:Colors.white),
                       decoration: BoxDecoration(borderRadius: BorderRadius.circular(15), color: Colors.green),
                       
                     ),
