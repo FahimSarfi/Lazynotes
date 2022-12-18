@@ -133,7 +133,7 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                                           "Rent",
                                           style: TextStyle(fontSize: 15),
                                         ),
-                                        backgroundColor: Colors.green,
+                                        backgroundColor: AppColors.mainColor,
                                         icon: Icon(
                                           Icons.view_list_rounded,
                                           size: 10,
