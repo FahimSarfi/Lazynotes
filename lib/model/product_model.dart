@@ -3,8 +3,9 @@ class ProductModel {
   String? image;
   String? description;
   String? price;
+  String? duration;
 
-  ProductModel({this.name, this.image, this.description, this.price});
+  ProductModel({this.name, this.image, this.description, this.price, this.duration});
 
   // receiving data from server
   factory ProductModel.fromMap(map) {
@@ -12,7 +13,8 @@ class ProductModel {
         name: map['name'],
         image: map['image'],
         description: map['description'],
-        price: map['price']);
+        price: map['price'],
+        duration: map['duration']);
   }
 
   // sending data to our server
@@ -21,7 +23,8 @@ class ProductModel {
       'name': name,
       'image': image,
       'description': description,
-      'price': price
+      'price': price,
+      'duration': duration
     };
   }
 }
