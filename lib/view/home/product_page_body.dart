@@ -1,9 +1,6 @@
 import 'package:dots_indicator/dots_indicator.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:email_password_login/view/widgets/small_text.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
 import '../../utils/colors.dart';
 import '../widgets/big_text.dart';
 import '../widgets/icon_and_text_widget.dart';
@@ -69,14 +66,14 @@ class _ProductPageBodyState extends State<ProductPageBody> {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              BigText(text: "Popular", size: 27),
+              BigText(text: "Popular Products ", size: 27),
             ],
           )),
       Container(
         height: 900,
         child: ListView.builder(
             physics: NeverScrollableScrollPhysics(),
-            itemCount: 10,
+            itemCount: 7,
             itemBuilder: (context, index) {
               String imageString =
                   "assets/image/product" + (index % 6).toString() + ".png";
@@ -127,24 +124,32 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                                         icon: Icons.location_on,
                                         text: "Dhaka",
                                         iconcolor: AppColors.iconColor1),
-                                    SizedBox(width: 1),
-                                    TextButton(
-                                      onPressed: () {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    PopularProductDetail(
-                                                      imageString: imageString,
-                                                    )));
-                                      },
-                                      child: Text(
-                                        "View Details",
-                                        style: TextStyle(
-                                            backgroundColor:
-                                                AppColors.mainColor),
+                                    
+                                    SizedBox(
+                                      width: 100,
+                                      height: 30,
+                                      child: FloatingActionButton.extended(
+                                        label: Text(
+                                          "Rent",
+                                          style: TextStyle(fontSize: 15),
+                                        ),
+                                        backgroundColor: Colors.green,
+                                        icon: Icon(
+                                          Icons.view_list_rounded,
+                                          size: 10,
+                                        ),
+                                        onPressed: () {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      PopularProductDetail(
+                                                        imageString:
+                                                            imageString,
+                                                      )));
+                                        },
                                       ),
-                                    ),
+                                    )
                                   ],
                                 )
                               ],
@@ -197,8 +202,8 @@ class _ProductPageBodyState extends State<ProductPageBody> {
             Align(
                 alignment: Alignment.bottomCenter,
                 child: Container(
-                  height: 120,
-                  margin: EdgeInsets.only(left: 30, right: 30, bottom: 30),
+                  height: 130,
+                  margin: EdgeInsets.only(left: 30, right: 30, bottom: 50),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
                       color: Color.fromARGB(255, 56, 56, 56),
@@ -225,11 +230,39 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         BigText(
-                          text: "Corsair RAM 16GB",
+                          text: "Nividia GTX 3090",
                           color: Colors.black,
                         ),
                         SizedBox(
-                          height: 15,
+                          height: 10,
+                        ),
+                        Row(
+                          children: [
+                            Wrap(
+                              children: List.generate(
+                                  5,
+                                  (index) => Icon(
+                                        Icons.star,
+                                        color: AppColors.mainColor,
+                                        size: 15,
+                                      )),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            SmallText(text: "4.5"),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            SmallText(text: "12"),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            SmallText(text: "Rented")
+                          ],
+                        ),
+                        SizedBox(
+                          height: 10,
                         ),
                         Row(
                           children: [
@@ -238,27 +271,30 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                                 text: "Dhaka",
                                 iconcolor: AppColors.iconColor1),
                             SizedBox(
-                              width: 140,
+                              width: 130,
                               height: 30,
                               child: FloatingActionButton.extended(
-                              label: Text(
-                                "view details",
-                                style: TextStyle(fontSize: 15),
+                                label: Text(
+                                  "view details",
+                                  style: TextStyle(fontSize: 15),
+                                ),
+                                backgroundColor: Colors.green,
+                                icon: Icon(
+                                  Icons.view_list_rounded,
+                                  size: 10,
+                                ),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              PopularProductDetail(
+                                                imageString: imageString,
+                                              )));
+                                },
                               ),
-                              backgroundColor: Colors.green,
-                              icon: Icon(Icons.view_list_rounded, size: 20,),
-                              onPressed: () {
-                                Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            PopularProductDetail(
-                                              imageString: imageString,
-                                            )));
-                              },
-                              
-                            ),
-                        )],
+                            )
+                          ],
                         )
                       ],
                     ),

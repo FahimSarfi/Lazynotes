@@ -1,4 +1,7 @@
+import 'dart:html';
+
 import 'package:email_password_login/model/product_model.dart';
+import 'package:email_password_login/view/widgets/app_icon.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
@@ -20,20 +23,32 @@ class PopularProductDetail extends StatelessWidget {
         name: "Corsair RAM",
         image: imageString,
         description: "8x2 3200Mhz",
-        price: "1200");
+        price: "1200");  
     return Scaffold(
         body: Stack(
       children: [
+        // Positioned(
+        //     left: 0,
+        //     right: 0,
+        //     child: Container(
+        //       width: double.maxFinite,
+        //       height: 350,
+        //       decoration: BoxDecoration(
+        //           image: DecorationImage(
+        //               fit: BoxFit.cover, image: AssetImage(imageString))),
+        //     )),
         Positioned(
-            left: 0,
-            right: 0,
-            child: Container(
-              width: double.maxFinite,
-              height: 350,
-              decoration: BoxDecoration(
-                  image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(imageString))),
-            )),
+          top: 45,
+          left: 20,
+          right: 20,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              AppIcon(icon: Icons.arrow_back_ios),
+              AppIcon(icon: Icons.shopping_cart_checkout)
+            ],
+          ),
+        ),
         Positioned(
             left: 0,
             right: 0,
