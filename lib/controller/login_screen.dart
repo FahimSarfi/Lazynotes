@@ -30,6 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     //email field
     final emailField = TextFormField(
+        key: Key("email"),
         autofocus: false,
         controller: emailController,
         keyboardType: TextInputType.emailAddress,
@@ -59,6 +60,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     //password field
     final passwordField = TextFormField(
+        key: Key("password"),
         autofocus: false,
         controller: passwordController,
         obscureText: true,

@@ -5,7 +5,7 @@ import '../../utils/colors.dart';
 import '../widgets/big_text.dart';
 import '../widgets/icon_and_text_widget.dart';
 import '../product/popular_product_detail.dart';
-import '../messages/success.dart';
+import '../Cart/success.dart';
 
 class ProductPageBody extends StatefulWidget {
   const ProductPageBody({Key? key}) : super(key: key);
@@ -66,7 +66,7 @@ class _ProductPageBodyState extends State<ProductPageBody> {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              BigText(text: "Popular Products ", size: 27),
+              BigText(text: "Popular Products:", size: 27),
             ],
           )),
       Container(
@@ -124,20 +124,25 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                                         icon: Icons.location_on,
                                         text: "Dhaka",
                                         iconcolor: AppColors.iconColor1),
+                                    IconAndTextWidget(
+                                        icon: Icons.access_time_filled_rounded,
+                                        text: "6 month",
+                                        iconcolor: AppColors.mainColor),
+                                    
+                                        SizedBox(
+                                      width: 5,
+                                    ),
                                     
                                     SizedBox(
-                                      width: 100,
+                                      width: 70,
                                       height: 30,
                                       child: FloatingActionButton.extended(
+                                        heroTag: null,
                                         label: Text(
                                           "Rent",
                                           style: TextStyle(fontSize: 15),
                                         ),
-                                        backgroundColor: AppColors.mainColor,
-                                        icon: Icon(
-                                          Icons.view_list_rounded,
-                                          size: 10,
-                                        ),
+                                         
                                         onPressed: () {
                                           Navigator.push(
                                               context,
@@ -230,7 +235,7 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         BigText(
-                          text: "Nividia GTX 3090",
+                          text: "Nvidia GTX 3090",
                           color: Colors.black,
                         ),
                         SizedBox(
@@ -270,15 +275,23 @@ class _ProductPageBodyState extends State<ProductPageBody> {
                                 icon: Icons.location_on,
                                 text: "Dhaka",
                                 iconcolor: AppColors.iconColor1),
+                                IconAndTextWidget(
+                                icon: Icons.access_time_filled_rounded,
+                                text: "6 month",
+                                iconcolor: AppColors.mainColor),
+                                SizedBox(
+                              width: 5,
+                            ),
                             SizedBox(
-                              width: 130,
+                              width: 70,
                               height: 30,
                               child: FloatingActionButton.extended(
+                                heroTag: null,
                                 label: Text(
-                                  "view details",
+                                  "Rent",
                                   style: TextStyle(fontSize: 15),
                                 ),
-                                backgroundColor: Colors.green,
+                                backgroundColor: Colors.blue,
                                 icon: Icon(
                                   Icons.view_list_rounded,
                                   size: 10,
