@@ -8,12 +8,12 @@
         "source": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_launcher_icon.png.flat",

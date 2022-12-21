@@ -1,14 +1,18 @@
-# Drent the Hardware Renting App
+# Drent the Hardware Renting App - installation
 Email and Password Authentication In Flutter &amp; Firebase in Flutter 
+to run the project install flutter sdk and dart, flutter extension in vs code and pull this project from github and then run flutter run in terminal.
 
- 
+# UNIT TESTING FOR 
 
-## Note
- I do not own any of the images used in this project.
+# item
+-splash screen
+-login
+-registration
+-prouct cart and catalog system
+-Unit testing in test folder 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
 
 
 
