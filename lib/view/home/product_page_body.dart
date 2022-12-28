@@ -5,7 +5,6 @@ import '../../utils/colors.dart';
 import '../widgets/big_text.dart';
 import '../widgets/icon_and_text_widget.dart';
 import '../product/popular_product_detail.dart';
-import '../Cart/success.dart';
 
 class ProductPageBody extends StatefulWidget {
   const ProductPageBody({Key? key}) : super(key: key);

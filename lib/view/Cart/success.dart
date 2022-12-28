@@ -1,14 +1,6 @@
-import 'dart:ffi';
-
-import 'package:email_password_login/view/widgets/app_icon.dart';
 import 'package:email_password_login/view/widgets/small_text.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
 import '../../utils/colors.dart';
-import '../widgets/app_column_copy.dart';
 import '../widgets/big_text.dart';
 import '../widgets/icon_and_text_widget.dart';
 

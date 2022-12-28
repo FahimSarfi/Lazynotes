@@ -1,13 +1,8 @@
 import 'package:email_password_login/model/product_model.dart';
 import 'package:email_password_login/view/Cart/success.dart';
 import 'package:email_password_login/view/widgets/app_icon.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import '../../utils/colors.dart';
-import '../widgets/app_column_copy.dart';
 import '../widgets/big_text.dart';
 import '../widgets/icon_and_text_widget.dart';
 import '../widgets/small_text.dart';

@@ -1,4 +1,3 @@
-import 'package:email_password_login/controller/home_screen.dart';
 import 'package:email_password_login/controller/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
