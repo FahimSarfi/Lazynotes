@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "outputFile": "com.example.email_password_login.app-mergeDebugResources-16:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\ca13df84744fb78ba4fe7e39301e0094\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\c014206419c07033183d78469fb50195\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\05b1e3f23b7084c316ad16470ccd20f3\\transformed\\jetified-exoplayer-core-2.17.1\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,195,267,333,410,477,578,671",
-                        "endColumns": "69,69,71,65,76,66,100,92,69",
-                        "endOffsets": "120,190,262,328,405,472,573,666,736"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "170,240,310,382,448,525,592,693,786",
-                        "endColumns": "69,69,71,65,76,66,100,92,69",
-                        "endOffsets": "235,305,377,443,520,587,688,781,851"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\ab51b2e24eb7855498b3aecf3a5bdd42\\transformed\\core-1.7.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\8de3cc0d0a0bdc606bca2de5da2aecc7\\transformed\\core-1.7.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -52,6 +35,23 @@
                         "startOffsets": "1173",
                         "endColumns": "100",
                         "endOffsets": "1269"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\adf5c39f330458bbc6aa7f21d17608b6\\transformed\\jetified-exoplayer-core-2.18.1\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,195,267,333,410,477,578,671",
+                        "endColumns": "69,69,71,65,76,66,100,92,69",
+                        "endOffsets": "120,190,262,328,405,472,573,666,736"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "170,240,310,382,448,525,592,693,786",
+                        "endColumns": "69,69,71,65,76,66,100,92,69",
+                        "endOffsets": "235,305,377,443,520,587,688,781,851"
                     }
                 }
             ]

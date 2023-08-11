@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "com.example.email_password_login.app-mergeDebugResources-16:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\ca13df84744fb78ba4fe7e39301e0094\\transformed\\browser-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\c014206419c07033183d78469fb50195\\transformed\\browser-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\ab51b2e24eb7855498b3aecf3a5bdd42\\transformed\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\8de3cc0d0a0bdc606bca2de5da2aecc7\\transformed\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

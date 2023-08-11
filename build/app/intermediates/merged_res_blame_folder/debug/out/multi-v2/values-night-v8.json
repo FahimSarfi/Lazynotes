@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "com.example.email_password_login.app-mergeDebugResources-16:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\android\\app\\src\\main\\res\\values-night\\styles.xml",
@@ -14,12 +14,12 @@
                         "endOffsets": "464,979"
                     },
                     "to": {
-                        "startLines": "2,7",
+                        "startLines": "2,6",
                         "startColumns": "4,4",
-                        "startOffsets": "55,352",
-                        "endLines": "6,9",
+                        "startOffsets": "55,236",
+                        "endLines": "5,8",
                         "endColumns": "12,12",
-                        "endOffsets": "347,516"
+                        "endOffsets": "231,400"
                     }
                 }
             ]
