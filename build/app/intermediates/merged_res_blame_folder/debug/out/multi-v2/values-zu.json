@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.email_password_login.app-mergeDebugResources-16:/values-zu/values-zu.xml",
+            "outputFile": "com.example.email_password_login.app-mergeDebugResources-18:/values-zu/values-zu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\6c77ec26a1c989766351caa8bb68af13\\transformed\\jetified-play-services-base-18.0.1\\res\\values-zu\\values.xml",
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\e126aad2293cbc1ddc13bacbb4854718\\transformed\\jetified-play-services-base-18.0.1\\res\\values-zu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\2f36ef263f4cfb2ff5e23bb84189138e\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-zu\\values.xml",
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\514966e281a1fe731b5d0a9156a3cbde\\transformed\\core-1.7.0\\res\\values-zu\\values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "33",
+                        "startColumns": "4",
+                        "startOffsets": "3439",
+                        "endColumns": "100",
+                        "endOffsets": "3535"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\8fcbfc9479b241f547ca84e438f28ab5\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-zu\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\adf5c39f330458bbc6aa7f21d17608b6\\transformed\\jetified-exoplayer-core-2.18.1\\res\\values-zu\\values-zu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,183,245,314,391,471,560,641",
-                        "endColumns": "68,58,61,68,76,79,88,80,68",
-                        "endOffsets": "119,178,240,309,386,466,555,636,705"
-                    },
-                    "to": {
-                        "startLines": "21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2452,2521,2580,2642,2711,2788,2868,2957,3038",
-                        "endColumns": "68,58,61,68,76,79,88,80,68",
-                        "endOffsets": "2516,2575,2637,2706,2783,2863,2952,3033,3102"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\c014206419c07033183d78469fb50195\\transformed\\browser-1.4.0\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\2067397de6526cea578eb49179b6cded\\transformed\\browser-1.4.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -72,20 +72,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\8de3cc0d0a0bdc606bca2de5da2aecc7\\transformed\\core-1.7.0\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Fahim Sarfi\\.gradle\\caches\\transforms-3\\2a97800539c85320d65a3031715f306c\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-zu\\values-zu.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,183,245,314,391,471,560,641",
+                        "endColumns": "68,58,61,68,76,79,88,80,68",
+                        "endOffsets": "119,178,240,309,386,466,555,636,705"
                     },
                     "to": {
-                        "startLines": "33",
-                        "startColumns": "4",
-                        "startOffsets": "3439",
-                        "endColumns": "100",
-                        "endOffsets": "3535"
+                        "startLines": "21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2452,2521,2580,2642,2711,2788,2868,2957,3038",
+                        "endColumns": "68,58,61,68,76,79,88,80,68",
+                        "endOffsets": "2516,2575,2637,2706,2783,2863,2952,3033,3102"
                     }
                 }
             ]

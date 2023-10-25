@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:email_password_login/controller/home_screen.dart';
 import 'package:email_password_login/model/user_model.dart';
-import 'package:email_password_login/view/home/main_product_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -167,7 +167,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
     final signUpButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Colors.green,
+      color: Color.fromARGB(255, 0, 0, 0),
       child: MaterialButton(
           padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
           minWidth: MediaQuery.of(context).size.width,
@@ -188,7 +188,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back, color: Colors.red),
+          icon: Icon(Icons.arrow_back, color: const Color.fromARGB(255, 0, 0, 0)),
           onPressed: () {
             // passing this to our root
             Navigator.of(context).pop();
@@ -303,7 +303,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
 
     Navigator.pushAndRemoveUntil(
         (context),
-        MaterialPageRoute(builder: (context) => MainProductPage()),
+        MaterialPageRoute(builder: (context) => HomeScreen()),
         (route) => false);
   }
 }

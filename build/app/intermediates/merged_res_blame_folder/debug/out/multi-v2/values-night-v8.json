@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.email_password_login.app-mergeDebugResources-16:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.email_password_login.app-mergeDebugResources-18:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Download\\Drent_final_project(cse 471)\\email_password_flutter_firebase-main\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "E:\\Download\\TEST1_fstt\\Lazynotes\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

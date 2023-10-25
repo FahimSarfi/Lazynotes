@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:email_password_login/controller/speech_screen.dart';
 import 'package:email_password_login/model/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'login_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -43,12 +43,12 @@ class _HomeScreenState extends State<HomeScreen> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               SizedBox(
-                height: 100,
-                child: Image.asset("assets/login.png", fit: BoxFit.contain),
+                height: 200,
+                child: Image.asset("assets/lazynotes_logo.png", fit: BoxFit.contain),
               ),
               Text(
-                "Welcome Back",
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                "LazyNotes",
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
               ),
               SizedBox(
                 height: 10,
@@ -64,12 +64,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     fontWeight: FontWeight.w500,
                   )),
               SizedBox(
-                height: 15,
+                height: 18,
               ),
               ActionChip(
-                  label: Text("Logout"),
+                  label: Text("Start Taking Notes"),
                   onPressed: () {
-                    logout(context);
+                    notes(context);
                   }),
             ],
           ),
@@ -79,9 +79,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // the logout function
-  Future<void> logout(BuildContext context) async {
+  Future<void> notes(BuildContext context) async {
     await FirebaseAuth.instance.signOut();
     Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => LoginScreen()));
+        MaterialPageRoute(builder: (context) => SpeechScreen()));
   }
 }

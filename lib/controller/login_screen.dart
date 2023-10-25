@@ -1,4 +1,4 @@
-import 'package:email_password_login/view/home/main_product_page.dart';
+import 'package:email_password_login/controller/home_screen.dart';
 import 'package:email_password_login/controller/registration_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -89,7 +89,7 @@ class _LoginScreenState extends State<LoginScreen> {
     final loginButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Colors.green,
+      color: Color.fromARGB(255, 0, 0, 0),
       child: MaterialButton(
           padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
           minWidth: MediaQuery.of(context).size.width,
@@ -119,11 +119,22 @@ class _LoginScreenState extends State<LoginScreen> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     SizedBox(
-                        height: 120,
+                        height: 180,
                         child: Image.asset(
-                          "assets/login.png",
+                          "assets/lazynotes_logo.png",
                           fit: BoxFit.contain,
-                        )),
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      
+                      const Text(
+                      "LazyNotes",
+                      style: TextStyle(
+                        fontSize: 25,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.green,
+                      ),
+                    ),
                     SizedBox(height: 25),
                     emailField,
                     SizedBox(height: 10),
@@ -171,7 +182,7 @@ class _LoginScreenState extends State<LoginScreen> {
             .then((uid) => {
                   Fluttertoast.showToast(msg: "Login Successful"),
                   Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (context) => MainProductPage())),
+                      builder: (context) => HomeScreen())),
                 });
       } on FirebaseAuthException catch (error) {
         switch (error.code) {
